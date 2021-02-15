@@ -30,7 +30,6 @@ class MinimumPlatform
             {
                 maxPlatform = neededPlatform;
             }
-
         }
 
         System.out.print(maxPlatform);
