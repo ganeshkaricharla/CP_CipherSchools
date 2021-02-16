@@ -8,16 +8,15 @@ class LargestSumContiguousArray
         int maxEnd = 0;
         for(int i =0; i <arr.length; i=i+1)
         {
-            System.out.println("T:"+maxTillNow + "S:"+maxEnd);
-           maxEnd = maxEnd + arr[i];
-           if(maxTillNow < maxEnd)
-           {
-               maxTillNow = maxEnd;
-           }
-           if(maxEnd < 0)
-           {
-               maxEnd = 0;
-           }
+            maxEnd = maxEnd + arr[i];
+            if(maxEnd < arr[i])
+            {
+                maxEnd = arr[i];
+            }
+            if(maxTillNow < maxEnd)  
+            {
+                maxTillNow = maxEnd;
+            }
         }
         System.out.print(maxTillNow);
     }
