@@ -1,10 +1,14 @@
 class Factorial{
-    static int fact(int n){
-        if(n<=0)
+
+    static int factorial(int num){
+        if( num <= 0 )
+        {
             return 1;
-        return n*fact(n-1);
+        }
+        return num * factorial(num-1) ;
     }
+
     public static void main(String[] args) {
-        System.out.print(fact(6));
+        System.out.println(factorial(6));
     }
 }

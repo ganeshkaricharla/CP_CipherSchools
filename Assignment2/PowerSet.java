@@ -1,4 +1,5 @@
-class PowerSet{
+class PowerSet
+{
     static void generatePowerSet(int[] arr){
         int i=0;
         int[] subset=new int[arr.length];
