@@ -24,4 +24,4 @@ class RemoveDuplicateOccurances{
         removeDuplicates(list);
         list.show();
     }
-}
+}--------
