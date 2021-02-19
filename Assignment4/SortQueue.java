@@ -1,6 +1,6 @@
 import java.util.*; 
 
-class GFG 
+class SortQueue
 { 
 static void FrontToLast(Queue<Integer> q, int qsize) 
 {
