@@ -21,7 +21,7 @@ class DiameterBT {
 
 	public static void main(String args[])
 	{
-		BinaryTree tree = new BinaryTree();
+		DiameterBT tree = new DiameterBT();
 		tree.root = new BTNode(1);
 		tree.root.left = new BTNode(2);
 		tree.root.right = new BTNode(3);

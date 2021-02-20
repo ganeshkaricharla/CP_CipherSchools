@@ -1,6 +1,6 @@
 public class HeightBT
 {
-static int height(BTNode root)
+int height(BTNode root)
 {
     if(root==null)
         return 0;
