@@ -1,5 +1,3 @@
-import java.util.*;
-
 class MinSumPath
 {
 	static int min(int x, int y, int z)
