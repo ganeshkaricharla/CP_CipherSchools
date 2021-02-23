@@ -1,5 +1,3 @@
-/* Java program for Dynamic Programming implementation
-of Min Cost Path problem */
 import java.util.*;
 
 class MinSumPath
